@@ -1,16 +1,30 @@
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# maven ignore
+target/
 *.jar
+!.mvn/wrapper/*
 *.war
-*.ear
+*.zip
+*.tar
+*.tar.gz
 
-hs_err_pid*
-/target/
-/bin/
-.settings
+# eclipse ignore
+.settings/
 .project
 .classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
